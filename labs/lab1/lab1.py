@@ -10,6 +10,7 @@ I certify that this assignment is my own work, but I discussed it with:
 Ashley Woods
 Isaiah Stapleton
 """
+
 def finding_monthly_interest():
     annual_interest_rate = eval(input("Enter the Annual Percentage Rate:"))
     days_in_billing_cycle =eval(input("Enter the Days in The Billing Cycle:"))
