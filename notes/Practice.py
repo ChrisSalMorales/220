@@ -1,7 +1,7 @@
 #def future():
     #age = eval(input("enter your age:"))
-    #futureage = age + 20
-    #print("in 20 years you will be", futureage)
+    #future_age = age + 20
+    #print("in 20 years you will be", future_age)
 
 
 #def convert():
@@ -43,7 +43,6 @@
 #         print(i, j, end='-')
 #     print()
 
-import math
 
 # dot notation
 # x = math.sqrt(9)
@@ -66,8 +65,18 @@ import math
 #     my_sum = my_sum + i
 # print(my_sum)
 
-user_input = eval(input("Enter a number: "))
-fact = 1
-for i in range(user_input, 0, -1):
-    fact =  fact * i
-print(fact)
+# user_input = eval(input("Enter a number: "))
+# fact = 1
+# for i in range(user_input, 0, -1):
+#     fact =  fact * i
+# print(fact)
+#
+# import math
+#
+# def quadratic_formula():
+#     a, b, c = eval(input("enter coefficients a, b, and c:"))
+#     sqrt_discr = math.sqrt(b * b -4 * a * c)
+#     denom = 2 * a
+#     root_1 = (-b + sqrt_discr) / denom
+#     root_2 = (-b - sqrt_discr) / denom
+#     print('root 1:', root_1, 'root 2:', root_2)
