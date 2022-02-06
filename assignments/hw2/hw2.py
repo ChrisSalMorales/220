@@ -21,7 +21,6 @@ def sum_of_threes():
 
 
 def multiplication_table():
-
     for multiplication_one in range(1, 11):
         for multiplication_two in range(1, 11):
             print(multiplication_one * multiplication_two, end="\t")

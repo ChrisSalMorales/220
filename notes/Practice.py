@@ -80,3 +80,15 @@
 #     root_1 = (-b + sqrt_discr) / denom
 #     root_2 = (-b - sqrt_discr) / denom
 #     print('root 1:', root_1, 'root 2:', root_2)
+
+from graphics import Point, GraphWin, Circle
+import math
+
+win = GraphWin('Face', 700, 700)
+face = Circle(Point(350, 100), math.pow(10, 2))
+left_eye = Circle(Point(310, 60), 25)
+right_eye = Circle(Point(390, 60), 25)
+
+face.draw(win)
+left_eye.draw(win)
+right_eye.draw(win)
