@@ -39,22 +39,20 @@ def newton():
 
 
 def sequence():
-    result = 1
     number_in_sequence = eval(input('how many terms would you like?'))
-    for i in list(range(1, number_in_sequence, 2)):
-        result = (i)
-    for b in list(range(1, number_in_sequence, 2)):
-        result = (b)
-    print(result)
+    for i in range(number_in_sequence):
+        number_in_sequence = i + 1 - (i % 2)
+        print(number_in_sequence, end ='\t')
 
 
 def pi():
-    fraction = 1
-    terms = eval(input('how many terms in the series?'))
-    for i in range(1, terms + 1):
-        denominator = (2 * i) / (2 * i +1)
-        numerator = (2 * i) / (2 * i -1)
-        fraction = fraction * numerator * denominator
-    answer_of_pi = fraction * 2
-    print(answer_of_pi)
+    accumulator = 1
+    term_series = eval(input('how many terms in the series?'))
+    for i in range(1, term_series + 1):
+        numerator = i +(i%2)
+        denomerator = i + 1-(i%2)
+        accumulator = accumulator * (numerator * denomerator)
+    result = accumulator * 2
+    print(result)
+pi()
 
